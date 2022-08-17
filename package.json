@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "nodemon": "^2.0.19",
+    "sass": "^1.54.4"
+  },
+
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+}
+}
