@@ -1,11 +1,16 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400;500;600&family=Lato:wght@300;400;700&display=swap");
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  cursor: grabbing;
 }
 
 .reduce-logo {
   width: 200px;
+  margin-top: 2vh;
 }
 
 video {
@@ -39,19 +44,19 @@ p {
   z-index: 1;
   border: solid black 2px;
   border-radius: 5%;
-  position: absolute;
-  top: 50vh;
-  left: 5%;
+  width: fit-content;
   color: black;
   text-decoration: none;
 }
 
 .overTextTitle {
   z-index: 1;
-  position: absolute;
-  top: 30vh;
-  left: 5%;
   color: black;
+}
+
+.centerText {
+  text-align: center;
+  width: 50%;
 }
 
 /*!
