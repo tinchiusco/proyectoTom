@@ -12,9 +12,12 @@ body {
 }
 
 .box-container {
+    display: flex;
+    justify-content: space-around;
     width: 100vw;
     height: 400px;
     background-color: $danger;
+    padding: 2%;
 }
 
 .p-banner{
@@ -22,3 +25,27 @@ body {
     font-weight: 500;
     text-align: center;
 }
+p{
+    font-size: 1.5rem;
+}
+.overText{
+    z-index: 1;
+    border: solid black 2px;
+    border-radius: 5%;
+    position: absolute;
+    top: 50vh;
+    left: 5%;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.overTextTitle{
+    z-index: 1;
+    position: absolute;
+    top: 30vh;
+    left: 5%;
+    color: black;
+    
+}
+
