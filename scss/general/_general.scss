@@ -1,10 +1,11 @@
 
 .reduce-logo {
     width: 200px;
+    margin-top: 2vh;
 }
 
 video {
-    width: 100vw;
+    width: 100%;
 }
 
 body {
@@ -12,13 +13,66 @@ body {
 }
 
 .box-container {
-    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     height: 400px;
     background-color: $danger;
+    
 }
 
 .p-banner{
     font-size: 2.5rem;
     font-weight: 500;
     text-align: center;
+}
+p{
+    font-size: 1.5rem;
+}
+.overText{
+    z-index: 1;
+    border: solid black 2px;
+    border-radius: 5%;
+    width: fit-content;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.overTextTitle{
+    z-index: 1;
+    color: black;
+    
+}
+
+.centerText{
+    text-align: center;
+    width: 50%;
+}
+
+.containerFormacion {
+   
+}
+
+.reduce{
+
+width: 40vw;
+border-radius: 10px;
+}
+
+.positionFormacion {
+    z-index: 1;
+    position: absolute;
+}
+
+.photoBox {
+    width: 600px;
+    height: 300px;
+}
+
+.banner {
+    border: 10px solid black;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
 }
