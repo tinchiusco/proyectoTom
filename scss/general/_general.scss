@@ -74,3 +74,9 @@ border-radius: 10px;
     overflow: hidden;
     height: 500px;
 }
+
+.navbar-center{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
